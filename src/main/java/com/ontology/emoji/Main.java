@@ -2,10 +2,6 @@ package com.ontology.emoji;
 
 import com.ontology.emoji.utils.ReadFile;
 
-/**
- * Hello world!
- *
- */
 public class Main {
 	
 	private final static String filePath = "file/EmojiUnicodes.xlsx";
