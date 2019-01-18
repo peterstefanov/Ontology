@@ -2,7 +2,7 @@
    $ mvn clean install
 2. To run project: 
   2.1.
-   $ mvn exec:java -Dexec.mainClass="com.ontology.emoji.Main" -Dexec.classpathScope=runtime
+   $ mvn exec:java -Dexec.mainClass="com.ontology.emoji.Main" -Dexec.classpathScope=runtime -Dfile.encoding=utf8 -Dsun.jnu.encoding=utf8
    Alternatively you can import the project in Eclipse once the project is build (step 1) prior importing it run the command:
    $ mvn eclipse:eclipse
   2.2. 
